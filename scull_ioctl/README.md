@@ -27,13 +27,13 @@ sudo chmod 666 /dev/{device_name}
 4. `cat`명령에 의해 `seq_operations` 순회하며 호출
 5. 따라서 각 디바이스의 정보 출력
 
-해당 사용자 코드는 Ubuntu 20.04 LTS 로컬 환경에서 동작하며 타겟 보드나 아키텍쳐가 없기에 `gcc`명령을 통해 실행 파일을 생성하면 된다.
+> 해당 사용자 코드는 Ubuntu 20.04 LTS 로컬 환경에서 동작하며 타겟 보드나 아키텍쳐가 없기에 `gcc`명령을 통해 실행 파일을 생성하면 된다.
 
 <br>
 
 <h2> 결과 </h2>
 
-![alt text](scullp.png)
+![alt text](imgs/sculli.png)
 
 처음 사용자 코드 실행 시 반환 값은 `6000`으로 정상적으로 출력되지만 `/dev/scullmem`을 확인했을 때 모든 `quantum`이 `4000`으로 변화가 없음을 확인할 수 있다.
 
