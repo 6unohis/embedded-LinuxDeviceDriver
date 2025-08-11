@@ -2,6 +2,8 @@
 make
 ```
 
+> 커널 모듈의 타겟 아키텍쳐 없이 로컬 환경에서 진행하기에 `CROSS_COMPILE`을 설정하지 않아도 된다.
+
 ``` bash
 sudo insmod scull.ko
 ```
